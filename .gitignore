@@ -1,0 +1,18 @@
+# Runtime data — never commit (contains real user ids and message content)
+inbox.jsonl
+outbox.jsonl
+sent.jsonl
+login-out.jsonl
+login-err.log
+wxd.log
+login-qr.png
+media/
+__pycache__/
+*.pyc
+
+# Credentials live outside the repo in ~/.config/wechat-bridge/ — listed
+# here defensively in case a copy ever lands in the working tree
+auth.json
+state.json
+wxd-state.json
+.env
